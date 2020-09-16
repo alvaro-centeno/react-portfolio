@@ -1,12 +1,15 @@
 import React from 'react';
-import Nav from '../Nav'
+import NavBar from '../Nav';
+import { Image } from 'react-bootstrap';
+import '../../style/Style.css'
 
 const Main = () => {
     return (
-        <div>
-            <Nav></Nav>
-        </div>
+        <>
+            <NavBar />
+
+        </>
     )
 }
 
-export default Main
+export default Main; 

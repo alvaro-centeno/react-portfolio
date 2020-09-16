@@ -1,23 +1,21 @@
 import React from 'react'
-import { Navbar } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 
-const Nav = () => {
+const NavBar = () => {
     return (
-        <div>
-            <>
-                <Navbar bg="dark" variant="dark">
-                    <Navbar.Brand href="#home"><i class="fab fa-autoprefixer"></i>
+        <>
+            <Navbar bg="dark" variant="dark">
+                <Navbar.Brand href="#home"><i class="fab fa-autoprefixer"></i>
 
-                    </Navbar.Brand>
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
-                    </Nav>
-                </Navbar>
-            </>
-        </div>
+                </Navbar.Brand>
+                <Nav className="ml-auto">
+                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="#projects">Projects</Nav.Link>
+                    <Nav.Link href="#contact">Contact</Nav.Link>
+                </Nav>
+            </Navbar>
+        </>
     )
 }
 
-export default Nav
+export default NavBar

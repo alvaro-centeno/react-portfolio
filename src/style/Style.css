@@ -1,0 +1,6 @@
+.backGround {  
+    background-image: "url(" + "https://cdn.cnn.com/cnnnext/dam/assets/181002113456-01-golden-gate-bridge-restricted.jpg" + ")";
+    background-position: 'center';
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+  }
