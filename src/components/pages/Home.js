@@ -1,7 +1,6 @@
 import React from 'react';
 import Jumbo from '../../components/Jumbo';
 import Carousel from '../Carousel';
-import Footer from '../Footer'
 
 
 

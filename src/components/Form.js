@@ -39,7 +39,7 @@ class Forms extends React.Component {
     render() {
         return (
             <div>
-                <Form onSubmit={this.handleSubmit}>
+                <Form onSubmit={this.handleSubmit} style={{ marginBottom: '10%', marginTop: '10%' }} >
                     <Form.Group>
                         <Form.Label htmlFor='full-name'>Name</Form.Label>
                         <Form.Control id='full-name' name='name' type="text" value={this.state.name} onChange={this.handleChange} placeholder="Enter Full Name" />

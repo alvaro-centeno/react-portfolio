@@ -6,11 +6,11 @@ import Forms from '../Form';
 
 class Contact extends React.Component {
 
-    render(props) {
+    render() {
         return (
             <div>
                 <Jumbo title={this.props.title} />
-                <Content>
+                <Content >
                     <Forms />
                 </Content>
             </div >
