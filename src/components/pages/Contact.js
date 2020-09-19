@@ -1,11 +1,21 @@
-import React from 'react'
+import React from 'react';
+import Jumbo from '../Jumbo';
+import Content from '../Content';
+import Forms from '../Form';
 
-const Contact = () => {
-    return (
-        <div>
-            <h1>Contact</h1>
-        </div>
-    )
+
+class Contact extends React.Component {
+
+    render(props) {
+        return (
+            <div>
+                <Jumbo title={this.props.title} />
+                <Content>
+                    <Forms />
+                </Content>
+            </div >
+        )
+    }
 }
 
-export default Contact;
+export default Contact
