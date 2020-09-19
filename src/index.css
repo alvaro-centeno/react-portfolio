@@ -17,7 +17,7 @@ code {
 }
 
 .a-card-img{
-  border-radius: 10px;
+  /* border-radius: 10px; */
   width: 350px;
   height: 300px;
   box-shadow: 0px 0px 3px 1px #ccc;

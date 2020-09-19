@@ -19,7 +19,7 @@ class Navigation extends React.Component {
             home: {
                 title: 'Dive into the World of Coding',
                 subTitle: 'A peak into my first projects ',
-                text: '(check them out)'
+                text: 'Click on the cards for more information'
             },
             about: {
                 title: 'About Me',

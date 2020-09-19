@@ -3,7 +3,7 @@ import github from '../assets/images/github.jpg'
 // import linkedin from '../assets/images/linkedin.jpg';
 import linkedin from '../assets/images/linkedin.jpg'
 import medium from '../assets/images/medium.png'
-import Card from './Card'
+import Cards from './Card'
 import { Container, Row } from 'react-bootstrap';
 
 class Carousel extends React.Component {
@@ -61,7 +61,7 @@ class Carousel extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card item={item} onClick={(e => this.handleCardClick(item.id, e))} key={item.id} />
+            return <Cards item={item} onClick={(e => this.handleCardClick(item.id, e))} key={item.id} />
         })
     }
 
