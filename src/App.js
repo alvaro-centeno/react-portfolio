@@ -1,44 +1,31 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Jumbo from './components/Jumbo';
+import Navigation from './components/Nav';
+import Footer from './components/Footer';
 import Main from './components/pages/Main'
 
 class App extends React.Component {
 
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     title: "Alvaro Centeno",
-  //     headerLinks: [
-  //       { title: 'Home', path: '/' },
-  //       { title: 'About', path: '/about' },
-  //       { title: 'Contact', path: '/contact' }
-  //     ],
-  //     home: {
-  //       title: 'Dive into the World of Coding',
-  //       subTitle: 'A peak into my first projects ',
-  //       text: '(check them out)'
-  //     },
-  //     about: {
-  //       title: 'About Me',
-  //     },
-  //     contact: {
-  //       title: 'Conact Me',
-  //     }
-  //   }
-  // }
-
   render() {
     return (
-
-      <Router>
+      <>
         <Main />
+        {/* <BrowserRouter>
+          <Switch>
+            <Route path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+          </Switch> */}
+        {/* <Footer /> */}
+        {/* </BrowserRouter> */}
+      </>
 
 
-
-      </Router>
-
-      // <h1>hello</h1>
 
     );
 
