@@ -36,7 +36,7 @@ class Navigation extends React.Component {
                     <Container className="p-0" fluid={true}>
 
                         <Navbar className="border-bottom" expand="lg" bg="dark" variant="dark">
-                            <Navbar.Brand href="#home"><i class="fab fa-autoprefixer"></i></Navbar.Brand>
+                            <Navbar.Brand href="#home"><i className="fab fa-autoprefixer"></i></Navbar.Brand>
                             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                             <Navbar.Collapse id="navebar-toggle">
                                 <Nav className="ml-auto">
